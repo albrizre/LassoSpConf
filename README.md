@@ -1,1 +1,1 @@
-
+R code for the paper *On alleviating spatial confounding issues with the Bayesian Lasso*, which can be accessed from https://www.researchgate.net/publication/367342855_On_alleviating_spatial_confounding_issues_with_the_Bayesian_Lasso.
