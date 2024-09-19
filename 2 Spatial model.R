@@ -1,7 +1,5 @@
 library(nimble)
 library(sp)
-library(rgdal)
-library(rgeos)
 library(sf)
 library(spdep)
 source("NIMBLE_codes/spatial_model.R")
