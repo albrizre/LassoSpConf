@@ -56,7 +56,7 @@ for (lambda_lasso in 10^(log_lambda)){
                                            "u",
                                            "v",
                                            "lambda"), thin = 10,
-                              niter = 500000, nburnin = 250000, nchains = 2, 
+                              niter = 50000, nburnin = 25000, nchains = 2, 
                               summary = TRUE, WAIC = TRUE)
     save(mcmc.output,file=paste0("Models/spatial_lasso_model_",lambda_lasso,".rda"))
     
