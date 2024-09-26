@@ -44,6 +44,6 @@ mcmc.output <- nimbleMCMC(spatial_model, data = data, inits = inits, constants =
                                        "u",
                                        "v",
                                        "lambda"), thin = 10,
-                          niter = 20000, nburnin = 4000, nchains = 1, 
+                          niter = 50000, nburnin = 25000, nchains = 2, 
                           summary = TRUE, WAIC = TRUE)
 save(mcmc.output,file="Models/spatial_model.rda")
