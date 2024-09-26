@@ -22,6 +22,6 @@ mcmc.output <- nimbleMCMC(basic_model, data = data, inits = inits, constants = c
                           monitors = c("alpha", 
                                        "beta",
                                        "lambda"), thin = 10,
-                          niter = 20000, nburnin = 4000, nchains = 1, 
+                          niter = 50000, nburnin = 25000, nchains = 2, 
                           summary = TRUE, WAIC = TRUE)
 save(mcmc.output,file="Models/basic_model.rda")
